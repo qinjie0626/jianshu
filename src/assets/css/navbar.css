@@ -1,0 +1,128 @@
+.witch_box {
+  width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.witch_box .logo {
+  height: 100%;
+  font-size: 0;
+  float: left;
+}
+.witch_box .logo img {
+  height: 100%;
+}
+.witch_box .nav-right {
+  display: flex;
+}
+.witch_box .nav-right .register {
+  text-align: center;
+  width: 80px;
+  height: 38px;
+  line-height: 38px;
+  margin: 9px 5px 0 15px;
+  border: 1px solid rgba(236, 97, 73, 0.7);
+  border-radius: 20px;
+  font-size: 15px;
+  color: #ea6f5a;
+  background-color: transparent;
+}
+.witch_box .nav-right .register:hover {
+  background-color: rgba(236, 97, 73, 0.05);
+}
+.witch_box .nav-right .write {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #ea6f5a;
+  margin: 8px 12px 0;
+}
+.witch_box .nav-right .write i {
+  margin-right: 3px;
+}
+.container-nav {
+  min-width: 750px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  margin-left: -15px;
+}
+.container-nav .navbar-left {
+  display: flex;
+}
+.container-nav .navbar-left li {
+  margin-right: 10px;
+  line-height: 56px;
+  font-size: 17px;
+  padding: 0 20px;
+}
+.container-nav .navbar-left li i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+.container-nav .navbar-left li.actcur{
+  background-color:transparent !important;
+}
+.container-nav .navbar-left li:nth-child(1):hover{
+  background-color: #f5f5f5;
+}
+.container-nav .navbar-left li:nth-child(2):hover{
+  background-color: #f5f5f5;
+}
+.container-nav .navbar-left .active {
+  color: #ea6f5a;
+}
+.container-nav .navbar-left .search {
+  position: relative;
+}
+.container-nav .navbar-left .search input {
+  width: 255px;
+  height: 38px;
+  padding: 0 40px 0 20px;
+  background: #eee;
+  border: 1px solid #eee;
+  border-radius: 40px;
+  transition: width .5s;
+  font-size: 14px;
+  color: #A0A0A0;
+}
+.container-nav .navbar-left .search i {
+  position: absolute;
+  top: 13px;
+  right: 38px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #969696;
+  text-align: center;
+  margin-right: 0;
+  border-radius: 50%;
+}
+.container-nav .navbar-left .search .cur{
+  color: #fff;
+  background: rgba(0,0,0,.3);
+}
+.navbar-nav-right{
+  float: right;
+  display: flex;
+}
+.navbar-nav-right li {
+  float: left;
+  line-height: 56px;
+  padding: 0 20px;
+}
+.navbar-nav-right{
+  float: right;
+}
+.navbar-nav-right li img {
+  height: 25px;
+}
+
+

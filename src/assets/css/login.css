@@ -1,0 +1,195 @@
+.js-login .input {
+  position: relative;
+  width: 100%;
+}
+.js-login .input i {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  font-size: 18px;
+  color: #969696;
+}
+.js-login .input .text {
+  border-radius: 4px 4px 0 0;
+  border-bottom: none;
+}
+.js-login .input .phone {
+  border-radius: 0;
+  border-bottom: none;
+}
+.js-login .input input {
+  width: 100%;
+  height: 50px;
+  padding: 4px 12px 4px 35px;
+  border: 1px solid #c8c8c8;
+  border-radius: 0 0 4px 4px;
+  background-color: hsla(0, 0%, 71%, 0.1);
+  vertical-align: middle;
+}
+.js-login .remember_me {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #969696;
+}
+.js-login .remember_me .me_left {
+  display: flex;
+  align-items: center;
+}
+.js-login .remember_me .me_left span {
+  margin-left: 5px;
+  font-size: 15px;
+  vertical-align: middle;
+}
+.js-login .login_btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 9px 18px;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  background: #3194d0;
+  cursor: pointer;
+  outline: none;
+  display: block;
+}
+.js-login .reg {
+  background: #42c02e;
+}
+.js-login .sign-up-msg {
+  margin: 10px 0;
+  padding: 0;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  color: #969696;
+}
+.js-login .sign-up-msg a {
+  color: #3194d0;
+}
+.js-login .code {
+  position: relative;
+}
+.js-login .code button {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 100px;
+  height: 36px;
+  font-size: 13px;
+  color: #fff;
+  background-color: #42c02e;
+  border-radius: 20px;
+  line-height: 36px;
+  border:none;
+  outline: none;
+}
+.js-login .code .cur{
+  background-color: #9DDC93;
+}
+.more-sign {
+  margin-top: 50px;
+}
+.more-sign h6 {
+  position: relative;
+  margin: 0 0 10px;
+  font-size: 12px;
+  color: #b5b5b5;
+}
+.more-sign h6::before,
+.more-sign h6::after {
+  content: "";
+  border-top: 1px solid #b5b5b5;
+  display: block;
+  position: absolute;
+  width: 60px;
+  top: 5px;
+}
+.more-sign h6::before {
+  left: 30px;
+}
+.more-sign h6::after {
+  right: 30px;
+}
+.more-sign ul {
+  margin-bottom: 10px;
+}
+.more-sign ul li {
+  margin: 0 5px;
+  display: inline-block;
+  line-height: 20px;
+}
+.more-sign ul li a {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+}
+.more-sign ul li a i {
+  font-size: 28px;
+}
+.more-sign ul li a .icon-xinlang {
+  color: #e05244;
+}
+.more-sign ul li a .icon-weixin {
+  color: #00bb29;
+}
+.more-sign ul li a .icon-icon {
+  color: #498ad5;
+}
+.tooltip-inner{
+  position: absolute;
+  right: -300px;
+  top: 6px;
+  max-width: 280px;
+  color: #ea6f5a;
+  border: 1px solid #ea6f5a;
+  background-color: #fff;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 4px;
+  display: none;
+}
+.tooltip-inner::before,.tooltip-inner::after{
+  display: block;
+  content:'';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  top: 50%;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+
+}
+.js-login .input .tooltip-inner i{
+  position: static;
+  margin-right: 5px;
+  font-size: 20px;
+  color: #ea6f5a;
+  vertical-align: middle;
+}
+.tooltip-inner::after{
+  left: -4px;
+  border-right-color: #fff;
+}
+.tooltip-inner::before{
+  border-right-color: #ea6f5a;
+  left: -5px;
+}
+.reminder{
+  width: 310px;
+  height: 40px;
+  border-radius: 8px;
+  color: #ea6f5a;
+  border: 1px solid #ea6f5a;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  top: 60px;
+  box-shadow:0 0 2px rgba(0,0,0,.5);
+  display: none;
+}
